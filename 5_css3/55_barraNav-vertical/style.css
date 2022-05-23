@@ -11,6 +11,7 @@ ul {
 li {
     background-color: blue;
     width: 200px;
+    transition: .5s;
 }
 
 li:hover {
