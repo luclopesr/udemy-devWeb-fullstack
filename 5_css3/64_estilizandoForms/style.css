@@ -1,0 +1,45 @@
+@charset "UTF-08";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    width: fit-content;
+    padding: 1em;
+    border: 1px solid gainsboro;
+}
+
+legend {
+    font-weight: bold;
+}
+
+div {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    width: fit-content;
+    cursor: pointer;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+    padding: 0 12px 0 12px;
+    /*padding: 2px 2px 2px 10px;*/
+    border-radius: 15px;
+    border: 1px solid gainsboro;
+}
+
+button {
+    height: 32px;
+    width: 100%;
+    padding: 0 12px 0 12px;
+    /*padding: 2px 2px 2px 10px;*/
+    color: white;
+    background-color: rgb(0, 0, 145);
+    border-radius: 16px;
+    border: none;
+}
