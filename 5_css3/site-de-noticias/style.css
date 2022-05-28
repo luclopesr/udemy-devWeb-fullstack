@@ -4,11 +4,11 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
-    background: #18185c url('imagens/fundo.png');
+    background: #2e4268 url('imagens/fundo.png');
     height: 233px;
 }
 
@@ -37,4 +37,114 @@ nav a {
 
 nav a:hover, a.atual {
     background-color: #db0f0f;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+section > div, section > article {
+    background: white url('imagens/fundo-caixa.png');
+    padding: 7px 10px;
+}
+
+section h4 {
+    background-color: #2e4268;
+    color: white;
+    padding: 5px;
+}
+
+.conteudo-lateral {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 7px;
+}
+
+.conteudo-lateral a {
+    padding: 10px 0;
+    color: black;
+}
+
+.conteudo-lateral a:hover {
+    background: white url('imagens/marcador.png') no-repeat left center;
+    color: gray;
+    text-indent: 23px;
+    
+}
+
+form{
+    gap: 3px;
+}
+
+form input[type="email"] {
+    height: 15px;
+    padding: 5px 10px;
+}
+
+form input[type="submit"] {
+    height: 25px;
+    width: fit-content;
+    padding: 0 10px;
+    background-color: #bb0000;
+    color: white;
+    border: 2px solid #b10000;
+}
+
+.conteudo-superior {
+    background-color: white;
+    padding: 7px;
+    width: 250px;
+}
+
+h5 {
+    background-color: #bb0000;
+    width: fit-content;
+    padding: 2px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.conteudo-superior img {
+    width: 250px;
+}
+
+.conteudo-superior a {
+    color: #bb0000;
+}
+
+.conteudo-inferior {
+    background-color: white;
+    padding: 7px;
+    width: 250px;
+    font-size: 0.8em;
+}
+
+.conteudo-inferior img {
+    width: 100px;
+}
+
+.conteudo-inferior a {
+    color: #5175b8;
+    text-transform: uppercase;
+}
+
+.conteudo-inferior-menor {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+
+    padding: 7px 0 7px 0;
+    border-bottom: 1px solid #8a8a8a;
 }
